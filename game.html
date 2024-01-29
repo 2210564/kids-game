@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+            <h3>A Guessing Game</h3>
+
+        <script>
+        var theMagicNumber =64
+        var body = document.querySelector("body")
+        while(true){
+            var num = Number(prompt("What is the number?"))
+         if(num && num== theMagicNumber){
+           body.style.backgroundColor = "black"
+           body.style.color = "white"
+           body.innerHTML = "<h1>YOU WIN!<h1>"
+            break;
+         }
+            
+            } 
+        </script>
+
+    </body>
+</html>
